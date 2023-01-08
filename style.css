@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -78,21 +79,6 @@ a:hover {
 
 .bg-t-edge {
     background: top no-repeat;
-}
-
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.texture-paper::before {
-    background: url("img/texture-papper-min.webp");
-    background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -275,6 +261,10 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+    display: flex;
+    width: 50%;
+    text-align: center;
+    justify-content: space-around;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -309,6 +299,8 @@ a:hover {
 
 .navbar-brand img[src$=svg] {
     min-width: 100px;
+    width: 90%;
+    
 }
 
 .nav-center .navbar-brand img {
@@ -651,7 +643,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #1A1919!important;
 }
 
 .container {
@@ -677,7 +669,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -702,6 +694,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    color:#FFFFFF
 }
 
 h2 {
@@ -737,6 +730,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    
 }
 
 .portfolio-thumb {
@@ -790,7 +784,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:focus {
-    background: #647dc7!important;
+    background: #4b614b!important;
     color: #FFFFFF!important;
 }
 
@@ -821,6 +815,10 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentatiion-min.webp");
+}
+
+.text-center {
+    font-size: 15px;
 }
 
 @media (max-width: 1024px) {
