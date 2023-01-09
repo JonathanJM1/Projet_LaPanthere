@@ -261,10 +261,6 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
-    display: flex;
-    width: 50%;
-    text-align: center;
-    justify-content: space-around;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -672,6 +668,16 @@ p {
     font-size: 15px;
 }
 
+.titre p {
+    font-size: 15px;
+}
+
+.titre2 p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -819,6 +825,7 @@ h4 {
 
 .text-center {
     font-size: 15px;
+    font-weight: bold;
 }
 
 @media (max-width: 1024px) {
