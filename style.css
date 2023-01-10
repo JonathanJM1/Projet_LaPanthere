@@ -261,6 +261,10 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+    display: flex;
+    width: 50%;
+    text-align: center;
+    justify-content: space-around;
 }
 
 .row.row-no-gutters > [class^="col-"],
